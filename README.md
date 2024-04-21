@@ -2,7 +2,7 @@
  Projeto Cardápido feito tudo do zero
  Com base no canal Sujeito Programador
 
-- Preview do site 
+https://hamburguertop.netlify.app/- Preview do site 
 
 deixa uma star ai :p
 
