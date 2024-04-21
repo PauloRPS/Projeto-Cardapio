@@ -2,7 +2,7 @@
  Projeto Cardápido feito tudo do zero
  Com base no canal Sujeito Programador
 
-https://guimaraesburguer.netlify.app/ - Preview do site 
+- Preview do site 
 
 deixa uma star ai :p
 
