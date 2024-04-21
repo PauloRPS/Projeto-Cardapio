@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
     <link rel="manifest" href="./assets/site.webmanifest">
-    <title>Guimarães Burguer</title>
+    <title>Top Burguer</title>
 </head>
 <body>
   <!--HEADER-->
@@ -24,10 +24,10 @@
           class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
         />
         <h1 class="text-4xl mt-4 mb-2 font-bold text-white">
-          Guimarães Burguer
+          Top Burguer
         </h1>
   
-        <span class="text-white font-medium">Afonso Pena, Campo Grande - MS</span>
+        <span class="text-white font-medium">Pedro Celestino, Camapuã - MS</span>
 
         <div class="rating" id="stars">
           <input value="5" name="rate" id="star5" type="radio">
@@ -133,8 +133,50 @@
         </div>
       </div>
       <!--FIM ITEM-->
-
-
+<!--PRODUTO ITEM-->
+<div class="flex gap-2">
+  <img 
+    src="./assets/hamb-8.png"
+    alt="Hamburguer Vegano"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+  />
+  <div>
+    <p class="font-bold">Hamburguer Vegano</p>
+    <p class="text-sm">Pão integral, salada de vegetais frescos, grãos diversos e maionese vegana. </p> 
+    <div class="flex items-center gap-2 justify-between mt-3">
+      <p class="font-bold text-lg">R$27,00</p>
+      <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+      data-name="Hamburguer Vegano"
+      data-price="27.00"
+      >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+      </button>
+    </div>
+  </div>
+</div>
+<!--FIM ITEM-->
+<!--PRODUTO ITEM-->
+<div class="flex gap-2">
+  <img 
+    src="./assets/hamb-6.png"
+    alt="Hamburguer Tentação"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+  />
+  <div>
+    <p class="font-bold">Hamburguer Tentação</p>
+    <p class="text-sm">Carne Grelhada no ponto perfeito, queijo derretido, cebolas caramelizadas, molho barbecue, pão tradicional </p> 
+    <div class="flex items-center gap-2 justify-between mt-3">
+      <p class="font-bold text-lg">R$37,00</p>
+      <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+      data-name="Hamburguer Tentação"
+      data-price="37.00"
+      >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+      </button>
+    </div>
+  </div>
+</div>
+<!--FIM ITEM-->
     </main>
 
     <div class="mx-auto max-w-7xl px-2 my-2">
@@ -178,7 +220,24 @@
         </div>
       </div>
       <!--FIM BEBIDA ITEM-->
-
+<!--BEBIDA ITEM-->
+<div class="flex gap-2 w-full">
+  <img src="./assets/refri-3.png" alt="Fanta Laranja" class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"/>
+  <div class="w-full">
+    <p class="font-bold">Fanta Laranja</p>
+    <div class="flex items-center gap-2 justify-between mt-3">
+      <p class="font-bold text-lg">R$6,00</p>
+      <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+      data-name="Fanta Laranja"
+      data-price="6"
+      >
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+      </button>
+    </div>
+  </div>
+</div>
+<!--FIM BEBIDA ITEM-->
+<!--BEBIDA ITEM-->
     </div>
     <!--FIM GRID BEBIDAS-->
 
